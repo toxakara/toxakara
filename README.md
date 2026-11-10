@@ -1,21 +1,31 @@
-### Anton Kara
+### Hi, I'm Anton 👋
 
-I build [Packvium](https://github.com/packvium), a deterministic engine for 3D bin packing
-and cartonization. You give it items and boxes, and it returns which box to use and where
-each item goes. It works in exact integer arithmetic, gives the same answer every time, and
-checks every answer with an independent validator.
+Full-stack engineer. I design and build systems from scratch, from a well-structured
+monolith to a set of microservices, and I take them all the way from the data model and
+the infrastructure to the interface people use.
 
-It has independent implementations in seven languages, and each one is tested against the
-same conformance corpus:
+**What I do**
 
-| | |
-| --- | --- |
-| Python | [packvium-python](https://github.com/packvium/packvium-python) · `pip install packvium` |
-| PHP | [packvium-php](https://github.com/packvium/packvium-php) · `composer require packvium/packvium` |
-| Rust | [packvium-rust](https://github.com/packvium/packvium-rust) · `cargo add packvium` |
-| Node.js and the browser | [packvium-node](https://github.com/packvium/packvium-node) · [packvium-wasm](https://github.com/packvium/packvium-wasm) |
-| Java | [packvium-java](https://github.com/packvium/packvium-java) · `com.packvium:packvium` |
-| .NET | [packvium-dotnet](https://github.com/packvium/packvium-dotnet) |
-| Go | [packvium-go](https://github.com/packvium/packvium-go) · `go get github.com/packvium/packvium-go` |
+- **Architecture from zero:** service boundaries, data models, APIs and the deployment that
+  holds them together, as a monolith or as microservices, whichever the product actually needs.
+- **Back end and front end:** I build the whole feature, not one layer of it.
+- **Infrastructure:** containers, cloud and self-managed servers, caching and search that hold
+  up under real traffic.
 
-Documentation and benchmarks are at [packvium.com](https://packvium.com).
+**Stack**
+
+Languages: PHP · Python · TypeScript / JavaScript · Rust · Go · Java · C#
+Data: PostgreSQL · MySQL · Redis · Elasticsearch
+Infrastructure: Docker · AWS · VPS · CI/CD
+
+**Open source: [Packvium](https://github.com/packvium)**
+
+A free, open-source engine for 3D bin packing and cartonization that I build in my spare
+time. You give it items and boxes, and it returns which box to use and where each item
+goes. It uses exact integer geometry, always gives the same answer for the same input, and
+checks every answer with an independent validator. One request format has seven independent
+implementations (Python, PHP, Rust, JavaScript/WASM, Java, .NET, Go), all held byte-for-byte
+to the same conformance suite and published to PyPI, Packagist, crates.io, npm, Maven
+Central and the Go module proxy.
+
+💼 [LinkedIn](https://www.linkedin.com/in/karahodov) · 🌐 [packvium.com](https://packvium.com)
